@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/rizkicaandra/interactive-rating-component)
-- Live Site URL: [Live Demo](https://melodic-bombolone-3175b4.netlify.app/)
+- Live Site URL: [Live Demo](https://snazzy-bonbon-7046aa.netlify.app/)
 
 ## My process
 

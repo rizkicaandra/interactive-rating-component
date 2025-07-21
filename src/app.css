@@ -1,0 +1,89 @@
+@import 'tailwindcss';
+
+html {
+	font-family: var(--font-family-regular);
+	background-color: var(--color-grey-950);
+}
+
+@layer utilities {
+	.bg-radial-custom {
+		background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+	}
+}
+
+@theme {
+	/* spacing */
+	--spacing-1.25: 0.313rem; /* 5px */
+	--spacing-3.75: 0.938rem; /* 15px */
+	--spacing-5.6: 1.406rem; /* 22.5px */
+	--spacing-7.12: 1.781rem; /* 28.5px */
+	--spacing-7.62: 1.906rem; /* 30.5px */
+	--spacing-8.62: 2.156rem; /* 34.5px */
+	--spacing-10.5: 2.625rem; /* 42px */
+	--spacing-12.75: 3.188rem; /* 51px */
+	--spacing-27: 6.75rem; /* 108px */
+	--spacing-40.5: 10.125rem; /* 162px */
+
+	/* border */
+	--radius-3.75: 0.938rem; /* 15px */
+	--radius-5.6: 1.406rem; /* 22.5px */
+	--radius-7.5: 1.875rem; /* 30px */
+
+	/*  container */
+	--spacing-max-card-container-mobile: 20.438rem;
+	--spacing-max-card-container-tablet: 25.75rem;
+
+	/* colors */
+	--color-white: #ffffff;
+	--color-black: #000000;
+	--color-grey-950: #131518;
+	--color-grey-900: #262e38;
+	--color-grey-500: #969fad;
+	--color-orange-500: #fc7614;
+	--color-gradient-1: #232a34;
+	--color-gradient-2: 181e27;
+
+	/* fonts */
+	--font-family-regular: 'Overpass', sans-serif;
+
+	/* text */
+	--text-preset-1: 1.75rem;
+	--text-preset-1--line-height: 2.188rem;
+	--text-preset-1--letter-spacing: 0rem;
+	--text-preset-1--font-weight: 700;
+
+	--text-preset-2: 1.5rem;
+	--text-preset-2--line-height: 1.875rem;
+	--text-preset-2--letter-spacing: 0rem;
+	--text-preset-2--font-weight: 700;
+
+	--text-preset-3: 1rem;
+	--text-preset-3--line-height: 1.5rem;
+	--text-preset-3--letter-spacing: 0.013rem;
+	--text-preset-3--font-weight: 700;
+
+	--text-preset-4-bold: 0.938rem;
+	--text-preset-4-bold--line-height: 1.188rem;
+	--text-preset-4-bold--letter-spacing: 0.125rem;
+	--text-preset-4-bold--font-weight: 700;
+
+	--text-preset-4-regular: 0.938rem;
+	--text-preset-4-regular--line-height: 1.5rem;
+	--text-preset-4-regular--letter-spacing: 0rem;
+	--text-preset-4-regular--font-weight: 400;
+
+	--text-preset-5-bold: 0.875rem;
+	--text-preset-5-bold--line-height: 1.125rem;
+	--text-preset-5-bold--letter-spacing: 0.117rem;
+	--text-preset-5-bold--font-weight: 700;
+
+	--text-preset-5-semi-bold: 0.875rem;
+	--text-preset-5-semi-bold--line-height: 1.5rem;
+	--text-preset-5-semi-bold--letter-spacing: 0.011rem;
+	--text-preset-5-semi-bold--font-weight: 600;
+
+	--text-preset-5-regular: 0.875rem;
+	--text-preset-5-regular--line-height: 1.375rem;
+	--text-preset-5-regular--letter-spacing: 0rem;
+	--text-preset-5-regular--font-weight: 400;
+}
